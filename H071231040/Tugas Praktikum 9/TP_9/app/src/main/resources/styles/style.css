@@ -1,0 +1,86 @@
+/* Global styling */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f0f4f8;
+
+    font-family: "Arial";
+    background-color: #f0f4f8;
+}
+
+/* Styling for the root node with background image */
+.root-with-background {
+    -fx-background-image: url("file:src/main/resources/background.png");
+    -fx-background-size: cover;
+}
+
+/* Styling for labels */
+.label {
+    -fx-font-size: 14pt;
+    -fx-text-fill: #ffffffd1;
+}
+
+/* Styling for text fields */
+.text-field {
+    -fx-background-color: #ffffff4d;
+    -fx-font-size: 12pt;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 20px;
+    -fx-border: none;
+    -fx-background-radius: 20px;
+}
+
+/* Styling for buttons */
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 12pt;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 20px;
+    -fx-border: none;
+    -fx-background-radius: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.button:pressed {
+    -fx-background-color: #004494;
+}
+
+/* VBox styling */
+.vbox {
+    -fx-spacing: 20px;
+    -fx-padding: 20px;
+}
+
+.vbox .label {
+    -fx-font-weight: bold;
+}
+
+.vbox .text-field {
+    -fx-min-width: 200px;
+}
+
+.vbox .button {
+    -fx-min-width: 100px;
+}
+
+/* Styling for image view */
+.image-view {
+    -fx-fit-width: 100px;
+    -fx-fit-height: 100px;
+    -fx-padding: 10px;
+}
+
+/* Styling for the profile scene */
+.profile-info {
+    -fx-font-size: 14pt;
+    -fx-padding: 10px;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
