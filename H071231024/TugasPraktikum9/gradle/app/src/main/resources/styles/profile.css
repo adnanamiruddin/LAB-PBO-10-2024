@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-Regular.ttf');
+}
+
+.root {
+    -fx-font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono';
+}
+
+#combinedLayout {
+    -fx-padding:20;
+    -fx-background-color: #00550d;
+}
+
+#buttonContainer {
+    -fx-padding: 20;
+}
+
+#homeButton {
+    -fx-background-color: #a00000;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+}
+
+#homeButton:hover {
+    -fx-background-color: #760000;
+}
+
+#layout {
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+#foto-gaza {
+    -fx-background-radius: 75;
+    -fx-border-radius: 50%;
+}
+
+#nama-gaza {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+#tentang-gaza {
+    -fx-fill: #939191;
+    -fx-font-size: 14px;
+    -fx-text-alignment: center;
+}
+
+#foto-rafah {
+    -fx-background-radius: 75;
+    -fx-border-radius: 50%;
+}
+
+#nama-rafah {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+#tentang-rafah {
+    -fx-fill: #939191;
+    -fx-font-size: 14px;
+    -fx-text-alignment: center;
+}

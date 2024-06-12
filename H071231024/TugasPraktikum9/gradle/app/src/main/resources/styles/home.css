@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-Regular.ttf');
+}
+
+.root {
+    -fx-font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono';
+}
+
+#layout {
+    -fx-padding: 50;
+    -fx-alignment: center;
+    -fx-background-color: #00550d;
+
+    padding: 50;
+    background-color: #00550d;
+}
+
+#title-palestina {
+    -fx-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+
+    fill: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#subtitle-palestina {
+    -fx-fill: white;
+    -fx-font-size: 45px;
+    -fx-font-weight: bold;
+
+    fill: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#line {
+    -fx-fill: white;
+    fill: white;
+}
+
+#profileButton {
+    -fx-background-color: #a00000;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+}
+
+#profileButton:hover {
+    -fx-background-color: #760000;
+}
+
+#forpalestine-button {
+    -fx-background-color: #a00000;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-font-size: 11px;
+}
+
+#forpalestine-button:hover {
+    -fx-background-color: #760000;
+}
